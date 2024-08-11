@@ -10,7 +10,7 @@ export default function Topdown() {
     <div>
 
       <div className="relative">
-      <div className="sticky top-0 h-screen flex flex-col items-center justify-center  text-white bg-zinc-900">
+{/*       <div className="sticky top-0 h-screen flex flex-col items-center justify-center  text-white bg-zinc-900">
         <div>
         </div>
         <motion.h2 initial={{opacity:0}}
@@ -18,7 +18,7 @@ export default function Topdown() {
         <motion.p  initial={{opacity:0}}
           whileInView={{transition:{duration:1},opacity:1,transitionDelay:1}} className='text-3xl'>$250</motion.p>
           <h6 className='text-slate-500 m-4'><Link to="/tnc">.TnC applied</Link></h6>
-      </div>
+      </div> */}
       <div className="sticky top-0 h-screen flex flex-col items-center justify-center bg-black text-white">
         <Links />
       </div>
